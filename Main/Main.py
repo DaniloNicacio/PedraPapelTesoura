@@ -37,10 +37,10 @@ class Game():
                 print("A maquina jogou tesoura, você perdeu!\n")
                 
             elif comp == 1 and self.option == 3:
-                print("A maquina jogou pedra, você venceu!\n")
+                print("A maquina jogou pedra, você perdeu!\n")
                 
             elif comp == 2 and comp == 1:
-                print("A maquina jogou papel, você venceu!\n")
+                print("A maquina jogou papel, você perdeu!\n")
                 
             #empate
             elif self.option == comp:
